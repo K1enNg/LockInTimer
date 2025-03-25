@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import { useEffect, useState } from 'react';
 import background from '../src/assets/maxresdefault.jpg'
 
 const ranks = [
