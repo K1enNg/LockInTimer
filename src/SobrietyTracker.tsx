@@ -2,16 +2,27 @@ import { useEffect, useState } from 'react';
 import background from '../src/assets/maxresdefault.jpg'
 
 const ranks = [
-    { name: "Private", days: 0 },
-    { name: "Sergeant", days: 3 },
-    { name: "Corporal", days: 7 },
-    { name: "Lieutenant", days: 10 },
-    { name: "Captain", days: 14 },
-    { name: "Major", days: 21 },
-    { name: "Colonel", days: 40 },
-    { name: "Marshal", days: 90 },
-    { name: "General", days: 180 },
-    { name: "Emperor", days: 365 },
+    { name: "Recruit", days: 0 },               
+    { name: "Private", days: 1 },                
+    { name: "Private First Class", days: 4 },    
+    { name: "Specialist", days: 7 },             
+    { name: "Corporal", days: 14 },              
+    { name: "Sergeant", days: 21 },             
+    { name: "Staff Sergeant", days: 30 },        
+    { name: "Sergeant First Class", days: 45 },  
+    { name: "Master Sergeant", days: 60 },       
+    { name: "First Sergeant", days: 90 },       
+    { name: "Sergeant Major", days: 120 },       
+    { name: "Command Sergeant Major", days: 150 },
+    { name: "Warrant Officer", days: 180 },  
+    { name: "Chief Warrant Officer", days: 210 },
+    { name: "Second Lieutenant", days: 240 },   
+    { name: "First Lieutenant", days: 270 },      
+    { name: "Captain", days: 300 },             
+    { name: "Major", days: 330 },               
+    { name: "General", days: 350 },            
+    { name: "Marshal", days: 365 },       
+    { name: "Emperor", days: 400 },        
 ];
 
 type Rank = {
